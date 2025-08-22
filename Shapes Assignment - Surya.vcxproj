@@ -129,9 +129,12 @@
   <ItemGroup>
     <ClInclude Include="..\assignment\Shape.h" />
     <ClInclude Include="..\assignment\ShapeFactory.h" />
+    <ClInclude Include="src\Shape.h" />
+    <ClInclude Include="src\ShapeFactory.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\assignment\main.cpp" />
+    <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
